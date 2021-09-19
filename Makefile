@@ -1,0 +1,2 @@
+eject:
+	rm -rf ./git

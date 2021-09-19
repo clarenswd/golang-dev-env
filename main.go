@@ -1,8 +1,15 @@
 package main
 
-import "fmt"
+import (
+	_ "embed"
+	"fmt"
+	"strings"
+)
+
+var (
+	Version string = strings.TrimSpace(version)
+)
 
 func main() {
-	// this will work without installing Go locally
-    fmt.Println("Hello world!")
+	fmt.Printf("Version %q\n", Version)
 }
