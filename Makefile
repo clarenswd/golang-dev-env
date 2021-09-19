@@ -1,2 +1,2 @@
 eject:
-	rm -rf ./git
+	rm -rf ./.git
