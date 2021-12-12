@@ -1,2 +1,3 @@
 eject:
-	rm -rf ./.git
+	@rm -rf ./.git\
+	&& echo "Remember to change the go.mod file!"
